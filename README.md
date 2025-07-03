@@ -15,9 +15,7 @@ A Next.js application that analyzes basketball video clips to determine if a fou
 ### AI-Powered Frame Analysis
 
 - **Gemini Integration**: Uses Google's Gemini 2.5 Pro model for computer vision
-- **Object Detection**: Identifies players, basketball, court elements in each frame
 - **Action Recognition**: Describes the primary action happening in each frame
-- **Confidence Scoring**: Provides confidence levels (high/medium/low) for each analysis
 - **Structured Output**: Returns JSON-formatted analysis for easy processing
 - **Basketball-Focused**: Specifically trained prompts for basketball referee scenarios
 
@@ -114,9 +112,6 @@ src/
 
 ## Next Steps
 
-- Implement AI-powered foul detection analysis
-- Add frame annotation capabilities
-- Integrate with computer vision models
 - Add user authentication and video history
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
